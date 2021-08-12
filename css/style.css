@@ -527,6 +527,9 @@ input.error {
     width: 100px;
     height: 65px; } }
 @media screen and (max-width: 768px) {
+  h2{
+    font-size:25px;
+  }
   .container{
     width:calc(100% - 40px);
   }
@@ -542,7 +545,7 @@ input.error {
     margin: 0 ;
   }
   .input-side-text{
-    width:15px;
+    width:85px;
   }
   #steps-uid-0-p-0 .form-row, #steps-uid-0-p-0 .form-group, #steps-uid-0-p-0 .form-date {
     width: 100%; }
@@ -558,6 +561,20 @@ input.error {
   fieldset, .actions ul {
     padding-left: 30px;
     padding-right: 30px; }
+
+
+    #steps-uid-0-p-5{
+      padding:0;
+    }
+
+     #steps-uid-0-p-5 h2,  #steps-uid-0-p-5 p{
+      padding-left:30px;
+      padding-top:30px;
+     }
+
+     #steps-uid-0-p-5 .calendly-inline-widget{
+      overflow:hidden !important;
+     }
 
   #slider-margin .noUi-pips {
     width: 94%; } }
