@@ -111,24 +111,7 @@
                     prefix: '',
                 })
         });
-         //stammkapital-gesamt-slider
-        var stammkapitalSliderGesamt = document.getElementById('stammkapital-gesamt');
-        noUiSlider.create(stammkapitalSliderGesamt, {
-              start: [0],
-              step: 1000,
-              connect: [true, false],
-              tooltips: [true],
-              range: {
-                  'min': 35000,
-                  'max': 10000000
-              },
-             
-                format: wNumb({
-                    decimals: 0,
-                    thousand: '.',
-                    prefix: 'EUR ',
-                })
-        });
+      
 
         var marginMin = document.getElementById('value-lower'),
 	    marginMax = document.getElementById('value-upper');
